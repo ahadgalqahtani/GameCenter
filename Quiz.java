@@ -77,7 +77,7 @@ public class Quiz {
         } else
             JOptionPane.showMessageDialog(null, "Wrong :(\n The correct answer is " + answer5[1]);
 
-        choice6 = JOptionPane.showOptionDialog(null, "What is the biggest animal that has ever lived?",
+        choice6 = JOptionPane.showOptionDialog(null, "Who invented the light bulb?",
                 "Select:", 0, 5, null, answer6, answer6[0]);
         if (choice6 == 0) {
             JOptionPane.showMessageDialog(null, "Your answer is correct!");
