@@ -12,9 +12,8 @@ public class StudentInfo {
     /**
      * This constructer intializes the student's
      * names, ID's, and E-mail's
-     * @param name  The student's name
-     * @param ID    The student's ID
-     * @param email The student's email
+     * @param student1  The first student's info
+     * @param student2    The second student's info
      */
 
     public StudentInfo(String student1, String student2) {
@@ -36,8 +35,8 @@ public class StudentInfo {
 
     /**
      * The set method sets a value for each field.
-     * @param student1  The student's name
-     * @param student2    The student's ID
+     * @param student1  The first student's info
+     * @param student2    The second student's info
      */
 
     public void Set(String student1, String student2) {
