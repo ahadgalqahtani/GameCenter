@@ -17,7 +17,19 @@
 
     public Information(ProjectInfo proInfo, StudentInfo stutInfo){
         projectInfo = new ProjectInfo(proInfo);
-        studentInfo = new StudentInfo(stutInfo);    }
+        studentInfo = new StudentInfo(stutInfo);    
+    }
+
+    /**
+     * The copy constructer intializes the
+     * object as another copy of Information
+     * @param info the object to copy
+     */
+
+    public Information(Information info){
+        projectInfo = info.projectInfo;
+        studentInfo = info.studentInfo;
+    }
 
     /**
      * A getProInfo method
